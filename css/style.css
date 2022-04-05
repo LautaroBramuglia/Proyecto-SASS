@@ -1,9 +1,79 @@
-h1 {
-  color: darkblue;
+body {
+  font-family: arial, helvetica;
+  background: #c2641b;
+  background: linear-gradient(90deg, #c2641b 0%, #f9f0e9 68%, white 100%); }
+
+.menu {
+  list-style: none;
+  padding: 0;
+  background: mediumvioletred;
+  width: 90%;
+  max-width: 100px;
+  margin: auto;
+  position: auto;
+  vertical-align: auto;
+  text-align: center;
+  border-style: groove;
+  border-color: whitesmoke; }
+
+.text-center {
   text-align: center; }
 
-footer {
+.text-left {
+  justify-content: left; }
+
+.text-right {
+  justify-content: right; }
+
+.imgstyle {
+  border-style: groove;
+  border-radius: auto;
+  margin: 10px; }
+
+nav {
+  width: 100%; }
+
+p {
+  color: black;
+  border-style: groove;
+  border-color: darkorange;
+  background: lightgray;
+  padding: 0;
+  width: auto;
+  margin: auto;
+  position: auto;
+  vertical-align: auto;
+  text-align: center;
+  margin: 15px; }
+
+h2 {
+  color: lightyellow;
+  background-color: grey;
+  padding: 0;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  position: auto;
+  vertical-align: auto;
   text-align: center; }
+
+nav li a:hover {
+  background-color: greenyellow; }
+
+footer h3 {
+  border-style: groove;
+  border-color: darkred;
+  width: 70%;
+  padding: 0;
+  margin: auto;
+  background-color: whitesmoke; }
+
+fieldset legend {
+  background-color: whitesmoke;
+  display: flex; }
+
+body header nav h1 {
+  color: whitesmoke; }
 
 .text-center {
   display: flex;
@@ -16,3 +86,33 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+footer {
+  text-align: center; }
+
+section table tr td {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: palevioletred; }
+
+.padding {
+  padding: 10px;
+  background: darkgray; }
+
+h1 {
+  background-color: darkgray;
+  width: 100%;
+  text-align: center; }
+
+fieldset {
+  background-color: aliceblue; }
+
+.margin {
+  margin: 15px; }
