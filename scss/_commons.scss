@@ -1,0 +1,64 @@
+//mixin
+
+.text-center{ 
+    @extend .text-center;
+    border-collapse: collapse;
+}
+
+@mixin  fontstyle($color, $fontsize){
+    font-size: $fontsize;
+    color: white;
+    background-color:$color;
+    text-transform: uppercase;
+    padding: 15px;
+    
+}
+
+h1{
+    @include fontstyle(#004414, 30px);
+}
+
+p{
+    @include fontstyle(#004414, 15px);
+}
+
+h3{
+    @include fontstyle(#4dc483,25px);
+}
+
+//map
+
+$paleta: (   
+'uno': #004414,
+'dos': #4dc483,
+'tres':#008616,
+'cuatro':#00a31b,
+'cinco': #004415,
+'seis': #10271e,
+'siete':#005e05,
+'ocho':greenyellow,
+'nueve':#6fb16d,
+'diez':#004414,
+'once': #46af46,
+'doce': #70d879,
+'trece':#003b17,);
+
+.bg-green{
+    background-color: map-get($map:$paleta,$key: 'once');
+}
+
+.bg-green2{
+    background-color: map-get($map:$paleta,$key: 'trece');
+}
+
+
+//extends
+
+.decoraciontitulo{
+    text-decoration: underline;
+    color: map-get($map:$paleta,$key:'nueve' );
+}
+.decoraciontitulo--nuevo{
+    @extend .decoraciontitulo;
+    color: map-get($map:$paleta,$key:'doce' );
+}

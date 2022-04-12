@@ -1,12 +1,49 @@
+.text-center {
+  border-collapse: collapse; }
+
+h1 {
+  font-size: 30px;
+  color: white;
+  background-color: #004414;
+  text-transform: uppercase;
+  padding: 15px; }
+
+p {
+  font-size: 15px;
+  color: white;
+  background-color: #004414;
+  text-transform: uppercase;
+  padding: 15px; }
+
+h3 {
+  font-size: 25px;
+  color: white;
+  background-color: #4dc483;
+  text-transform: uppercase;
+  padding: 15px; }
+
+.bg-green {
+  background-color: #46af46; }
+
+.bg-green2 {
+  background-color: #003b17; }
+
+.decoraciontitulo, .decoraciontitulo--nuevo {
+  text-decoration: underline;
+  color: #6fb16d; }
+
+.decoraciontitulo--nuevo {
+  color: #70d879; }
+
 body {
   font-family: arial, helvetica;
-  background: #c2641b;
-  background: linear-gradient(90deg, #c2641b 0%, #f9f0e9 68%, white 100%); }
+  background: #008616;
+  background: linear-gradient(90deg, #007e1f 0%, #f9f0e9 68%, white 100%); }
 
 .menu {
   list-style: none;
   padding: 0;
-  background: mediumvioletred;
+  background: #00a31b;
   width: 90%;
   max-width: 100px;
   margin: auto;
@@ -16,7 +53,7 @@ body {
   border-style: groove;
   border-color: whitesmoke; }
 
-.text-center {
+.text-midle {
   text-align: center; }
 
 .text-left {
@@ -31,13 +68,17 @@ body {
   margin: 10px; }
 
 nav {
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  box-sizing: border-box; }
 
 p {
-  color: black;
+  color: white;
   border-style: groove;
-  border-color: darkorange;
-  background: lightgray;
+  border-color: #004415;
+  background: #10271e;
   padding: 0;
   width: auto;
   margin: auto;
@@ -48,9 +89,9 @@ p {
 
 h2 {
   color: lightyellow;
-  background-color: grey;
+  background-color: #005e05;
   padding: 0;
-  width: 40%;
+  width: 60%;
   text-align: center;
   margin: auto;
   position: auto;
@@ -61,12 +102,13 @@ nav li a:hover {
   background-color: greenyellow; }
 
 footer h3 {
+  color: #6fb16d;
   border-style: groove;
-  border-color: darkred;
+  border-color: #004414;
   width: 70%;
   padding: 0;
   margin: auto;
-  background-color: whitesmoke; }
+  background-color: #46af46; }
 
 fieldset legend {
   background-color: whitesmoke;
@@ -100,14 +142,15 @@ table {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: palevioletred; }
+  background-color: #70d879; }
 
 .padding {
   padding: 10px;
   background: darkgray; }
 
 h1 {
-  background-color: darkgray;
+  color: white;
+  background-color: #003b17;
   width: 100%;
   text-align: center; }
 
@@ -116,3 +159,21 @@ fieldset {
 
 .margin {
   margin: 15px; }
+
+h3 {
+  color: white;
+  background-color: #4dc483;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  text-align: center; }
+
+.back {
+  background-color: #429668; }
+
+.bg-green {
+  justify-content: center; }
+
+.bg-green2 {
+  justify-content: center; }
