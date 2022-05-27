@@ -1,0 +1,73 @@
+body   {
+    background-color:black;
+    overflow-x: hidden;
+    padding-left:10%;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    margin-right: 200px;
+}
+
+p{
+    font-size: 25px;
+    color: wheat;
+    margin-left: 20px;
+}
+
+legend{
+    color: brown;
+}
+
+fieldset{
+    padding: 5px;
+    margin-right: 9%;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+audio{
+    padding: 20px;
+    align-content: center;
+}
+
+.botones{
+    position: right;
+    color: brown;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 35%;
+    font-size: 20px;
+}
+
+.botones1{
+    position: left;
+    color: brown;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.botones2{
+    position: center;
+    color: brown;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 35%;
+    font-size: 20px;
+}
+
+.imagen{
+    width: 91%;
+    height: 420px;
+    padding-bottom: 65px;
+}
+
+.cmedio{
+    text-align: center;
+}
