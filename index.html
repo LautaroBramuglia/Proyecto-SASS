@@ -1,25 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silent Hills</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Formulario Silent Hills</title>
 </head>
-<body>
-    <h1>SILENT HILLS</h1>
-    <img  class="imagen" src="img/inicio.jpg" alt="imagen silent hills1">
-    <fieldset>
-        <p>Te adentras en un pueblo Silent Hill ,un pueblo fantasma el cual su entrada esta prohibida por desapariciones misteriosas, para poder encontrar a tu hija,que despues de un choque el cual quedaste inconciente a desaparecido del auto.</p>
-    </fieldset>
-    <fieldset>
-    <input class="botones" onclick="funcion()" type="button" id="boton" value="Empezar">
-    </fieldset>
-       <audio controls autoplay>
-           <source src="./music/silenthills.mp3" type="audio/mpeg">
-       </audio>
-       <script src="js/javascript.js"></script>
+
+<body class="body">
+    <div class="container-form sign-up">
+        <div class="welcome">
+            <div class="message">
+                <h2>Bienvenido a Silent Hills</h2>
+                <p>te pedimos tus datos para ingresar a la aventura.</p>
+                <p>-------------------------------------------------</p>
+                <p>Recuerda que esta aventura es solo para +18</p>
+            </div>
+        </div>
+    <section>
+    <div>
+        <form class="formulario">
+            <h2 class="create-account">Datos del usuario.</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxl-instagram'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-facebook-circle' ></i>
+                </div>
+            </div>
+            <p class="datos">!  Datos del usuario !</p>
+            <label for="nombre">tu nombre:</label>
+            <input type="text" id="nombreAguardar" oninput="guardarNombre()">
+            <label for="edad">tu edad:</label>
+            <input type="text" id="edadAguardar" oninput="guardarNombre2()">
+            <button class="butonx">Guardar</button>
+            <input class="butonx" value="Comenzar la aventura" type="button" onclick="empezar()"></input>
+
+    </div>
+        </div>
+    </div>
+    <script src="./js/javas.js"></script>
 </body>
+
 </html>

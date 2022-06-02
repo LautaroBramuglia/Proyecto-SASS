@@ -1,32 +1,14 @@
 function funcion(){
-    location.href = "paginas/entrada.html";
+    location.href = "../paginas/entrada.html";
 };
 
 
 ////*****entrada*******/
 function funcionentrada(){
     location.href = "../paginas/calles.html";
-    {alert("Bienvenido a mi proyecto final de javascript registrate para poder empezar.")
-
-let usuario1 = prompt ("Registre su nombre de usuario.")
-let pass1 = prompt("Ingrese una contraseña.")
-alert("Se a registrado con exito, Ingrese sus datos nuevamente para ingresar.")
-
-let usuarios1 = prompt("Ingrese usuario.")
-let passs1 = prompt("Ingrese contraseña")
-
-while (pass1 != passs1){
-	alert("contraseña incorecta")
-	passs1 = prompt("ingrese contraseña");
-
-}
-while (usuario1 != usuarios1){
-	alert("usuario incorrecto")
-	usuarios1 = prompt("ingrese usuario");
-}
 
 alert (("Que la historia comienze te deseo buena suerte"));
-}};
+};
 
 ////******calles*********
 function funcion1(){
@@ -57,7 +39,7 @@ function funcionmuerte(){
 };
 
 function funcionmuerte1(){
-    location.href = "../index.html";
+    location.href = "../paginas/inicio.html";
 };
 
 function funcionmuerte2(){
@@ -90,8 +72,8 @@ function funcion6(){
     document.getElementById("cambio").innerHTML= "Una llave tengo que irme por la puerta de atras antes de que entre sea lo que sea que se encuentre afuera debajo de la mesa habia un codigo (2,5 y 8) para que servira..." }
 
 function funcion7(){
-    location.href = "../paginas/bar2.html";
-}
+    let cambioImagen= document.getElementById("revisar mesa del bar").src="../img/exit.jpg";
+    document.getElementById("cambio").innerHTML="Felicidades completaste la primera parte de mi juego html+css+js,la aventura continuara...";} 
 
 function funcion8(){
     location.href = "../paginas/muerte2.html";
