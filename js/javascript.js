@@ -1,13 +1,23 @@
+
+////*****examples de sweetalert2*******/
+Swal.fire({
+    icon: 'warning',
+    title: 'Silent Hills ',
+    text: 'La aventura empezara...!',
+    footer: '<a href="">Recuerda ser +18</a>'
+  })
+
+
+
+  ////*****entrada*******/
 function funcion(){
     location.href = "../paginas/entrada.html";
 };
 
 
-////*****entrada*******/
+////*****entrada2*******/
 function funcionentrada(){
     location.href = "../paginas/calles.html";
-
-alert (("Que la historia comienze te deseo buena suerte"));
 };
 
 ////******calles*********

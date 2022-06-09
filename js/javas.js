@@ -1,3 +1,5 @@
+Swal.fire('Bienvenido a mi aventura grafica.')
+
 localStorage.setItem("nombre","nombre")
 localStorage.setItem("edad","edad")
 localStorage.setItem("guardado de localstorage",true)
