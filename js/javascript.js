@@ -1,13 +1,15 @@
 
 ////*****examples de sweetalert2*******/
-Swal.fire({
-    icon: 'warning',
-    title: 'Silent Hills ',
-    text: 'La aventura empezara...!',
-    footer: '<a href="">Recuerda ser +18</a>'
-  })
-
-
+function inicio(){
+    console.log((Swal.fire({
+        icon: 'warning',
+        title: 'Silent Hills ',
+        text: 'La aventura empezara...!',
+        footer: '<a href="">Recuerda ser +18</a>'
+      })));
+  }
+  
+  setTimeout(inicio, 7000);
 
   ////*****entrada*******/
 function funcion(){

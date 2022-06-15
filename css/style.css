@@ -1,9 +1,8 @@
-body   {
+body {
     background-color:black;
     overflow-x: hidden;
     padding-left:10%;
 }
-
 h1{
     color: red;
     text-align: center;
@@ -75,9 +74,8 @@ audio{
 
 /**********************css del index*************************/
 
-
 .body {
-    height: 840px;
+    height: auto;
     display: auto;
     align-items: center;
     justify-content: center;
@@ -213,4 +211,13 @@ audio{
     color: black;
     font-size: 25px;
     margin-left: 20px;
+}
+
+.of{
+   width: 100px;
+   height: 130px;
+}
+
+.colorn{
+    color: black;
 }

@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Formulario Silent Hills</title>
 </head>
-
 <body class="body">
     <div class="container-form sign-up">
         <div class="welcome">
@@ -20,7 +19,23 @@
                 <p class="p_index">Recuerda que esta aventura es solo para +18</p>
             </div>
         </div>
-    <section>
+
+        <form id="formulario" class="m-5">
+            <label for="" class="colorn">Ingrese el nombre de su ciudad para ver su temperatura.</label>
+            <input id="city" type="text" placeholder="Ej: Buenos Aires">
+            <input type="submit" value="Buscar ciudad">
+          </form>
+          <div id="of" class="of"></div>
+          <div class="d-flex of">
+            <div id="card-result" class="card d-none colorn">
+              <div id="city-name" class="card-title"></div>
+              <div class="card-body of colorn">
+                <img id="foto" src="" alt="">
+                <div id="temperatura"class="colorn">asd</div>
+              </div>
+            </div>
+          </div>
+        <section>
     <div>
         <form class="formulario ">
             <h2 class="create-account">Datos del usuario.</h2>
@@ -35,6 +50,7 @@
                     <i class='bx bxl-facebook-circle' ></i>
                 </div>
             </div>
+
             <p class="datos">!  Datos del usuario !</p>
             <label for="nombre">tu nombre:</label>
             <input type="text" id="nombreAguardar" oninput="guardarNombre()">
@@ -42,12 +58,11 @@
             <input type="text" id="edadAguardar" oninput="guardarNombre2()">
             <button class="butonx">Guardar</button>
             <input class="butonx" value="Comenzar la aventura" type="button" onclick="empezar()"></input>
-
-    </div>
+        </div>
         </div>
     </div>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>></script>
-    <script src="./js/javas.js"></script>
+    <script src="./js/javas.js" defer></script>
 </body>
 
 </html>
