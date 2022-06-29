@@ -110,7 +110,7 @@ audio{
 }
 
 .message button {
-    padding: 1rem;
+    padding:1rem;
     font-weight: 400;
     background-color: #4a4aee;
     border-radius: 2rem;
@@ -146,8 +146,8 @@ audio{
 }
 
 .border-icon {
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -160,7 +160,7 @@ audio{
 }
 
 .border-icon:hover {
-    background-color: blueviolet;
+    background-color: blue;
     cursor: pointer;
 }
 

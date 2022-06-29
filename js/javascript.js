@@ -1,3 +1,6 @@
+////*****arrays*******/
+
+const inventario = [];
 
 ////*****examples de sweetalert2*******/
 function inicio(){
@@ -81,6 +84,7 @@ function funcion5(){
 
 function funcion6(){
     let cambioImagen = document.getElementById("revisar mesa del bar").src="../img/llave.jpg";
+    inventario.push("llave")
     document.getElementById("cambio").innerHTML= "Una llave tengo que irme por la puerta de atras antes de que entre sea lo que sea que se encuentre afuera debajo de la mesa habia un codigo (2,5 y 8) para que servira..." }
 
 function funcion7(){
